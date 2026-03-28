@@ -4,7 +4,7 @@ Inspirated by @mikorifaatjatmiko
 File by @mikorifaatjatmiko
 
 Use this command to launch :
-curl -sL https://pastebin.com/raw/2PNZvYWC | tr -d '\r' | bash
+curl -sL https://raw.githubusercontent.com/takashivin/TADC-Terminal-Eps.8/refs/heads/main/command | tr -d '\r' | bash
 ...
 
 
