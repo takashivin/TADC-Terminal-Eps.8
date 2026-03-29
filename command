@@ -18,6 +18,7 @@ typewriter() {
     done
     echo ""
 } 
+
 blinkwriter() {
     local text=$(echo -e "$1")
     local blink_times="${2:-3}"
@@ -31,6 +32,9 @@ blinkwriter() {
     done
     echo "" 
 }
+
+
+# Use "\e[0m" to using special character
 
 sleep 0.5
 clear
@@ -190,7 +194,7 @@ typewriter "Actually you\'re CONFUSED let me HELP want module to EXIST? [Y/N]" 0
 typewriter '\nkinger@circus: "$ Y'; sleep 0.6
 typewriter '$: Override instruction error falling back default met' 0.04
 
-typewriter '\nkinger@circus:~$ ./Switcheroo_realtime --daemon --target=torment_injection &'; sleep 0.7
+typewriter '\nkinger@circus: "$ ./Switcheroo_realtime --daemon --target=torment_injection &'; sleep 0.7
 typewriter '$: fusion of --b program1 program2 --out' 0.04
 typewriter '$: Are you ready to delete caine? [Y/N]'
 blinkwriter 'WACKYTIME_LOCKOUT: 90% loaded'
@@ -199,4 +203,4 @@ typewriter '\nkinger@circus: "$ Y'; sleep 0.4
 typewriter '\nkinger@circus: "$ ./|ABORT Rollback --depth=1 --source --protocol G WVJI'; sleep 0.3
 typewriter 'kinger@circus: "$ ^C'; sleep 1
 
-typewriter '\nDESTRUCTIVE WACKYTIME Lockout Load Sequence: COMPLETE'; sleep 2.5
+typewriter '\nDESTRUCTIVE WACKYTIME Lockout Load Sequence: COMPLETE'; sleep 2
